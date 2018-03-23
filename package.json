@@ -7,7 +7,12 @@
   "author": "Hideyuki Hirauchi <hirauchi@ideapump.net>",
   "license": "MIT",
   "private": true,
-  "dependencies": {
+  "dependencies": {},
+  "scripts": {
+    "pr-test-ok": "node ci/pr-test-ok.js"
+  },
+  "devDependencies": {
+    "dotenv": "^5.0.1",
     "node-rest-client": "^3.1.0"
   }
 }
