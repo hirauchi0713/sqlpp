@@ -8,7 +8,7 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "pr-check-ok": "docker-compose run node-ci pr-check-ok",
-    "branch-protection": "docker-compose run node-ci branch-protection"
+    "pr-check-ok": "docker-compose run --rm node-ci pr-check-ok",
+    "branch-protection": "docker-compose run --rm node-ci branch-protection"
   }
 }
