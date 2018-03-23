@@ -7,13 +7,8 @@
   "author": "Hideyuki Hirauchi <hirauchi@ideapump.net>",
   "license": "MIT",
   "private": true,
-  "dependencies": {},
   "scripts": {
     "pr-check-ok": "docker-compose run node-ci pr-check-ok",
     "branch-protection": "docker-compose run node-ci branch-protection"
-  },
-  "devDependencies": {
-    "dotenv": "^5.0.1",
-    "node-rest-client": "^3.1.0"
   }
 }
