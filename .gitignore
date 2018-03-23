@@ -1,3 +1,6 @@
+# temps
+tmp/
+
 # Logs
 logs
 *.log
