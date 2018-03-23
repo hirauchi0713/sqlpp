@@ -9,8 +9,8 @@
   "private": true,
   "dependencies": {},
   "scripts": {
-    "pr-check-ok": "node ci/pr-check-ok.js",
-    "branch-protection": "node ci/branch-protection.js"
+    "pr-check-ok": "docker-compose run node-ci pr-check-ok",
+    "branch-protection": "docker-compose run node-ci branch-protection"
   },
   "devDependencies": {
     "dotenv": "^5.0.1",
