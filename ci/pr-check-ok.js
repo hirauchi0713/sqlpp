@@ -10,8 +10,11 @@ const client = new Client()
 const list_commits = 'https://api.github.com/repos/${OWNER}/${REPO}/pulls/${NUMBER}/commits'
 const statuses = 'https://api.github.com/repos/${OWNER}/${REPO}/statuses/'
 
-var  getArgs  = ci.makeGetArgs()
-getArgs.path.NUMBER = process.argv[2]
+const getArgs = ci.makeGetArgs({
+  path: {
+    NUMBER: process.argv[2]
+  }
+})
 
 const postArgs = ci.makePostArgs({}, {
   "state": "success",
