@@ -3,7 +3,7 @@
     "include_admins": true,
     "strict": false,
     "contexts": [
-      "test"
+      "check"
     ]
   },
   "enforce_admins": true,

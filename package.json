@@ -9,7 +9,7 @@
   "private": true,
   "dependencies": {},
   "scripts": {
-    "pr-test-ok": "node ci/pr-test-ok.js"
+    "pr-check-ok": "node ci/pr-check-ok.js"
   },
   "devDependencies": {
     "dotenv": "^5.0.1",
