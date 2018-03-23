@@ -1,0 +1,13 @@
+{
+  "name": "sqlpp",
+  "version": "1.0.0",
+  "description": "SQL Pretty-Printer",
+  "main": "index.js",
+  "repository": "git@github.com:hirauchi0713/sqlpp.git",
+  "author": "Hideyuki Hirauchi <hirauchi@ideapump.net>",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "node-rest-client": "^3.1.0"
+  }
+}
