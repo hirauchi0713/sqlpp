@@ -29,6 +29,6 @@ GIT_SQLPP_TOKEN=xxxx
 
 ## コマンド
 ```
-# 指定のプルリクをtest済みにします
-$ yarn pr-test-ok <pr-number>
+# 指定のプルリクをcheck済みにします
+$ yarn pr-check-ok <pr-number>
 ```
