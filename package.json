@@ -9,7 +9,8 @@
   "private": true,
   "dependencies": {},
   "scripts": {
-    "pr-check-ok": "node ci/pr-check-ok.js"
+    "pr-check-ok": "node ci/pr-check-ok.js",
+    "branch-protection": "node ci/branch-protection.js"
   },
   "devDependencies": {
     "dotenv": "^5.0.1",
