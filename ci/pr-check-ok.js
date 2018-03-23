@@ -1,5 +1,5 @@
 //
-// 指定されたプルリクにtest okを出す
+// 指定されたプルリクにcheck okを出す
 //
 
 require('dotenv').config()
@@ -42,7 +42,7 @@ client.get(list_commits, args, (json, response) => {
       },
       data : {
         "state": "success",
-        "context": "test"
+        "context": "check"
       }
     }
     console.log(postargs)
