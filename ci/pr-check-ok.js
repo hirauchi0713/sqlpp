@@ -3,6 +3,7 @@
 //
 
 require('dotenv').config()
+const ci = require('./ci.js')
 
 const path = require('path')
 
@@ -36,16 +37,12 @@ const postargs = {
   }
 }
 
-function responseLog(res) {
-  console.log(`${res.responseUrl} => ${res.statusCode}: ${res.statusMessage}`)
-}
-
 client.get(list_commits, args, (json, res) => {
-  responseLog(res)
+  ci.responseLog(res)
   json.forEach(commits => {
     const url = statuses+commits.sha
     client.post(url, postargs, (data, res) => {
-      responseLog(res)
+      ci.responseLog(res)
     })
   })
 })
