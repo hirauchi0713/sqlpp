@@ -1,2 +1,5 @@
 create_1
 select_1
+insert_1
+insert_2
+update_1
